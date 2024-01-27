@@ -11,6 +11,7 @@ import { selectSendMessageIsOpen } from "./features/mailSlice";
 import { selectUser } from "./features/userSlice";
 import Login from "./Login";
 import { db } from "./firebase";
+// import { db } from "./firebase";
 
 function App() {
   const sendMessageIsOpen = useSelector(selectSendMessageIsOpen);
